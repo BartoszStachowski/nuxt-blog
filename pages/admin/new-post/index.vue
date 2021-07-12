@@ -13,7 +13,7 @@ import axios from 'axios';
 export default {
   name: "index",
   layout: 'admin',
-  middleware: 'auth',
+  middleware: ['check-auth', 'auth'],
   components: { AdminPostForm },
   methods: {
     onSubmitted(postData) {

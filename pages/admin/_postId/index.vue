@@ -12,7 +12,7 @@ import AdminPostForm from "@/components/Admin/AdminPostForm";
 export default {
   name: "index",
   layout: 'admin',
-  middleware: 'auth',
+  middleware: ['check-auth', 'auth'],
   components: { AdminPostForm },
   asyncData(context) {
     return context.app.$axios
