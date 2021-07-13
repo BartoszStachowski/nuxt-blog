@@ -52,6 +52,7 @@ export default {
   env: {
     fbAPIKey: 'AIzaSyD6h9PsTiFzOHaMwva4bwBSqWGhMhk49jE',
     baseUrl: process.env.BASE_URL || 'https://nuxt-blog-9f392-default-rtdb.europe-west1.firebasedatabase.app',
+    serverUrl: 'http://localhost:3000'
   },
 
   router: {
