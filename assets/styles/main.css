@@ -5,3 +5,7 @@
 .fade-enter, .fade-leave-to {
   opacity: 0;
 }
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
